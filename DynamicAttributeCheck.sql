@@ -1,11 +1,3 @@
---because why would anyone need a loop
-
-/* Attribute Check with R 1.1
-Notes: This is the sql module of the ACR package. This should be used in conjuction with the R module for maximum results, if available. 
-Earlier versions of ACR may not have an R module availble. 
-This package, the ACR package, produces results on all data attributes within a table. To get a pivot table on a subset of data within a table, use the ACRP package. 
-*/
-
 DECLARE 
 	@userinput1 varchar(MAX)
 	,@userinput2 varchar(MAX)
@@ -129,7 +121,7 @@ DECLARE
 ;
 
 ---Database---
-SET @userinput0 = 'MDMStaging'
+SET @userinput0 = 'DBNAME'
 ---Schema---
 SET @userinput1 = 'ODS'
 ---Table---
